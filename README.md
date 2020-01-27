@@ -19,5 +19,5 @@ make install
 cd /home/Chiaki_Bin
 ```
 
-## All credit :
+## Credit :
 thestr4ng3r (Florian Märkl)
