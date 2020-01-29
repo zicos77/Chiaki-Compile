@@ -18,6 +18,18 @@ make
 make install
 cd /home/Chiaki_Bin
 ```
-
+## Windows:
+# Software :
+Git
+Visual Studio 2017 or 2019 (for the commands below in version 2017)
+mingw64
+# Commands :
+```
+git clone -q --branch=master https://github.com/thestr4ng3r/chiaki.git C:\chiaki
+git checkout -qf 5bf530d56df09bdab4c6bb0cf49106baff626c29
+git submodule update --init --recursive
+call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+C:\msys64\usr\bin\bash -lc "cd \"%APPVEYOR_BUILD_FOLDER%\" && scripts/appveyor.sh"
+```
 ## Credit :
 thestr4ng3r (Florian Märkl)
