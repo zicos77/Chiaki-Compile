@@ -1,5 +1,5 @@
 ## Chiaki link Source : 
-https://github.com/zicos77/chiaki
+https://github.com/thestr4ng3r/chiaki
 
 ## linux commands :
 ```
@@ -9,7 +9,7 @@ pip3 uninstall protobuf -y
 pip3 uninstall google -y
 pip3 install google
 pip3 install protobuf
-git clone https://github.com/zicos77/chiaki.git
+git clone https://github.com/thestr4ng3r/chiaki.git
 cd chiaki
 git submodule update --init
 mkdir build && cd build
