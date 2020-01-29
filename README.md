@@ -21,7 +21,9 @@ cd /home/Chiaki_Bin
 ## Windows:
 # Software :
 Git
+# 
 Visual Studio 2017 or 2019 (for the commands below in version 2017)
+# 
 mingw64
 # Commands :
 ```
